@@ -94,10 +94,10 @@ Arquivo ***hosts*** é onde fica o inventário com a maquina onde o ***ansible**
 Apelido ansible_host=IP_ACESSO ansible_ssh_private_key_file=/diretorio/para/sua_chave_ssh ansible_port=22
 ```
 
-* ***Apelido*** ele não gera alteração na execução, é apenas para organização. 
-* ***ansible_host*** é o IP que vamos conectar e instalar o node_exporter.
-* ***ansible_ssh_private_key*** é a chave SSH do seu usuário para a conexão. 
-* ***ansible_port*** é a porta de SSH para a conexão, utilizada em casos onde a porta é diferente de 22. 
+* ***Apelido***: O apelido não gera alteração na execução, é apenas para organização. 
+* ***ansible_host***: IP que vamos conectar e instalar o node_exporter.
+* ***ansible_ssh_private_key***: Caminho para chave SSH do seu usuário realizar a conexão. 
+* ***ansible_port***: Porta de SSH para a conexão, utilizada em casos onde a porta é diferente de 22. 
 
 ***playbook.yml*** é o arquivo de playbook que vamos utilizar, para executar o mesmo basta rodar o seguinte comando:
 ```bash
