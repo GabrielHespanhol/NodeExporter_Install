@@ -1,6 +1,4 @@
 
-# NodeExporter_Install
-
 # Documentação para uso do playbook de instalação do node_exporter
 
  Essa documentação tem como finalidade ser simples e direta ao ponto, vou deixar alguns links de documentação para caso queira se aprofundar ou buscar informações avançadas para as ferramentas. 
