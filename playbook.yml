@@ -1,7 +1,6 @@
 ---
 - name: Install Node Exporter
   hosts: servidores
-  remote_user: suporte
   become: true
   become_user: root
 
