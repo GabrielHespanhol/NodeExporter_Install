@@ -1,4 +1,6 @@
 
+# NodeExporter_Install
+
 # Documentação para uso do playbook de instalação do node_exporter
 
  Essa documentação tem como finalidade ser simples e direta ao ponto, vou deixar alguns links de documentação para caso queira se aprofundar ou buscar informações avançadas para as ferramentas. 
@@ -91,11 +93,12 @@ Arquivo ***hosts*** é onde fica o inventário com a maquina onde o ***ansible**
 
 ```ini
 [servidores] 
-Apelido ansible_host=IP_ACESSO ansible_ssh_private_key_file=/diretorio/para/sua_chave_ssh ansible_port=22
+Apelido ansible_host=IP_ACESSO ansible_user=USUARIO_DE_ACESSO ansible_ssh_private_key_file=/diretorio/para/sua_chave_ssh ansible_port=22 
 ```
 
 * ***Apelido***: O apelido não gera alteração na execução, é apenas para organização. 
 * ***ansible_host***: IP que vamos conectar e instalar o node_exporter.
+* ***ansible_user***: Usuário que será utilizado para a conexão com servidor remoto.
 * ***ansible_ssh_private_key***: Caminho para chave SSH do seu usuário realizar a conexão. 
 * ***ansible_port***: Porta de SSH para a conexão, utilizada em casos onde a porta é diferente de 22. 
 
