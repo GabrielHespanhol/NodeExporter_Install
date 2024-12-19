@@ -32,7 +32,7 @@ Também é importante comentar que para utilizar o `playbook` é necessário que
 Abra o PowerShell ou o Prompt de Comando do Windows no modo de **administrador** clicando com o botão direito do mouse e selecionando "Executar como administrador"; insira o comando wsl --install e reinicie o computador.
 
 ```powershell
-wls --install
+wsl --install
 ```
 
 Comando executado com sucesso, você agora deve instalar uma distribuição linux para utilização, eu recomendo o ubuntu.
